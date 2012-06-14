@@ -1,11 +1,11 @@
-/**
- * 
+/** Piston.java
+ * This represents a piston object which can change its length variably from a defined min and max length
  */
 
 /**
- * @author mdu7078
- *
+ * @author Michael Dushkoff (mad1841@rit.edu)
  */
+
 public class Piston extends PhysObject implements Connector {
 	//The minimum outstretched length of the piston:
 	private double minLength;
